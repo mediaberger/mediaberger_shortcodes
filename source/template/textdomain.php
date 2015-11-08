@@ -23,7 +23,7 @@ add_filter('widget_text', 'do_shortcode');
  * @param string $str
  * @return string
  */
-function @@textdomain_code( $str ) {
+function @@textdomain_convert_to_ascii( $str ) {
 
     $pieces = str_split( trim( $str ) );
     $new_str = '';
@@ -79,8 +79,8 @@ function @@textdomain_email_func( $atts, $content = false ) {
 
     $out = sprintf(
         '<a href="%s">%s</a>',
-        @@textdomain_code( 'mailto:' . $mailto ),
-        @@textdomain_code( $content )
+        @@textdomain_convert_to_ascii( 'mailto:' . $mailto ),
+        @@textdomain_convert_to_ascii( $content )
     );
 
     return $out;
