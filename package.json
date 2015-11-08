@@ -1,0 +1,30 @@
+{
+    "name": "Mediaberger Shortcodes",
+    "textdomain": "mediaberger_shortcodes",
+    "version": "0.2.1",
+    "description": "A WordPress Plugin providing common used Shortcodes",
+    "author": {
+        "name": "Christian Hockenberger <mail@mediaberger.com>",
+        "url": "http://mediaberger.com"
+    },
+    "license": {
+        "name": "GNU General Public License",
+        "version": "v2 or later",
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html"
+    },
+    "homepage": "https://github.com/mediaberger/mediaberger_shortcodes",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mediaberger/mediaberger_shortcodes.git"
+    },
+    "bugs": {
+        "url": "https://github.com/mediaberger/mediaberger_shortcodes/issues"
+    },
+    "main": "Gruntfile.js",
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-contrib-clean": "0.5.x",
+        "grunt-zip": "0.16.x",
+        "grunt-replace": "~0.4.4"
+    }
+}

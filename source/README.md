@@ -1,7 +1,7 @@
-# Mediaberger Shortcodes
-### [Project Page](https://bitbucket.org/mediaberger/wp-plugin-mediaberger-shortcodes)
+# @@name
+### [Project Page](@@homepage)
 
-A WordPress Plugin providing common used Shortcodes
+@@description
 
 
 
@@ -11,15 +11,15 @@ After git checkout run
 ```
 npm install
 ```
-Now you can run the default **grunt**-task to build the WordPress plugin `mediaberger_shortcodes/mediaberger_shortcodes/` and the uploadable ZIP-archive `mediaberger_shortcodes/mediaberger_shortcodes.zip`.
+Now you can run the default **grunt**-task to build the WordPress plugin `@@textdomain/@@textdomain/` and the uploadable ZIP-archive `@@textdomain/@@textdomain.zip`.
 
-Do only edit files stored in `mediaberger_shortcodes/source/`.
+Do only edit files stored in `@@textdomain/source/`.
 
 
 
 ### Overview:
 
-#### [email] (mediaberger_shortcodes_email_func)
+#### [email] (@@textdomain_email_func)
 **Usage**
 * ```[email=mail@example.com/]```
 * ```[email]mail@example.com[/email]```
@@ -28,7 +28,7 @@ Do only edit files stored in `mediaberger_shortcodes/source/`.
 **Output**
 * ```<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#97;&#105;&#108;&#64;&#101;&#120;&#97;&#109;&#112;&#108;&#101;&#46;&#99;&#111;&#109;">&#76;&#105;&#110;&#107;&#116;&#105;&#116;&#108;&#101;</a>```
 
-#### [int] (mediaberger_shortcodes_internallink_func)
+#### [int] (@@textdomain_internallink_func)
 **Usage**
 * ```[int id=12]```
 * ```[int id=12 name="Linktitle"]```
@@ -41,11 +41,11 @@ Do only edit files stored in `mediaberger_shortcodes/source/`.
 
 ### Author & Copyright:
 
-Copyright (c) Christian Hockenberger <mail@mediaberger.com>
+Copyright (c) @@author
 
 
 
 ### License:
 
-GNU General Public License v2 or later
-http://www.gnu.org/licenses/gpl-2.0.html
+@@license @@license_version
+@@license_url
