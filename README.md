@@ -1,5 +1,5 @@
-# Mediaberger Shortcodes
-### [Project Page](https://bitbucket.org/mediaberger/wp-plugin-mediaberger-shortcodes)
+# Mediaberger_Shortcodes
+### [Project Page](https://github.com/mediaberger/mediaberger_shortcodes)
 
 A WordPress Plugin providing common used Shortcodes
 
